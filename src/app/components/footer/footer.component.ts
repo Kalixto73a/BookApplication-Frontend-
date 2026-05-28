@@ -9,4 +9,22 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  public navigateToGithub(): void {
+
+    window.open('https://github.com/Kalixto73a/', '_blank');
+
+  }
+
+  public navigateToLinkedIn(): void {
+
+    window.open('https://www.linkedin.com/in/alvarocerveravigara/', '_blank');
+
+  }
+
+  public navigateToGithubRepository(): void {
+
+    window.open('https://github.com/Kalixto73a/BookApplication-Frontend-','_blank');
+
+  }
+
 }
