@@ -2,3 +2,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+
+    @apply font-mono;
+    background-color: black;
+    
+}
+
+header ::selection{
+
+        background-color: transparent;
+        color: inherit;
+
+}
+
+main ::selection{
+
+        background-color: rgb(234 179 8);
+        color: black;
+
+}
