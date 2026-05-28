@@ -17,9 +17,22 @@ header ::selection{
 
 }
 
+main {
+
+    color:white;
+
+}
+
 main ::selection{
 
         background-color: rgb(234 179 8);
         color: black;
+
+}
+
+footer ::selection{
+
+        background-color: transparent;
+        color: inherit;
 
 }
